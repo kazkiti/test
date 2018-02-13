@@ -1,4 +1,3 @@
 <html>
-<body>test
-</body>
+<body>test</body>
 </html>
