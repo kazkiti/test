@@ -1,1 +1,1 @@
-<html><body>test</body></html>
+<script>alert(1)</script>
