@@ -1,0 +1,7 @@
+<!DOCTYPE root[<!ENTITY c SYSTEM "http://example.com/">]>
+<order>
+	<item>
+		<name>&c;</name>
+		<amount>14</amount>
+	</item>
+</order>
