@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE root[<!ENTITY c SYSTEM "../xsl_list.jsp">]>
+<order>
+	<item>
+		<name>&c;</name>
+		<amount>14</amount>
+	</item>
+</order>
