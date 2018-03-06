@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
 <!DOCTYPE root[
-  <!ELEMENT foo ANY >
   <!ENTITY c SYSTEM "/etc/passwd">
 ]>
