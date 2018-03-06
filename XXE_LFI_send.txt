@@ -1,5 +1,3 @@
 <?xml version="1.0"?>
-<!DOCTYPE root[
-  <!ENTITY c SYSTEM "/etc/passwd">
-]>
+<!DOCTYPE root[<!ENTITY c SYSTEM "/etc/passwd">]>
 <name>&c;</name>
