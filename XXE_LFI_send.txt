@@ -2,3 +2,4 @@
 <!DOCTYPE root[
   <!ENTITY c SYSTEM "/etc/passwd">
 ]>
+<name>&c;</name>
